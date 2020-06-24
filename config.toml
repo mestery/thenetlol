@@ -1,69 +1,124 @@
-baseURL                          = "http://thenet.lol/"    # Your domain name. Must end with "/"
-theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
-# disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
+baseURL = "https://thenet.lol"
+title   = "thenet.lol"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Tom, Kyle, Brent, Dave"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
 [params]
-    themeStyle                   = "light"                 # Choose "light" or "dark"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
-    showRSSButton                = false                   # Show rss button in navigation
-    fadeIn                       = true                    # Turn on/off the fade-in effect
-    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
-    dateFormat                   = "Jan 2, 2006"
-    #email                        = "thenet@thenet.lol"   # E-mail address for contact section
-    # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    # Configure the home page
-    [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
-        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-        localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
-    [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
+  homeSubtitle = "thenet.lol"
 
-    # Share buttons on blog post pages
-    [params.share]
-        twitter                  = true
-        facebook                 = false
-        googlePlus               = false
-        pinterest                = false
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
 
-    # Social icons appear in introduction and contact section. Add as many more as you like.
-    # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-    # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-    [[params.social]]
-        url   = "https://twitter.com/thenetlol"
-        icon  = "twitter" # icon name without the 'fa-'
-        icon_pack = "fab"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-# If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
 
-# We only use tag as a taxonomies
-# You can add more by yourself
-[taxonomies]
-  tag = "tags"
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  #[params.portrait]
+  #  path = "/img/image.jpg"
+  #  alt = "Portrait"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/thenetlol"
+
+  #[[params.social]]
+  #  name = "email"
+  #  url  = "mailto:nobody@example.com"
 
 [languages]
-    [languages.en]
-        languageName     = "English"
-        languageCode     = "en-us"
-        contentDir       = "content/en"
-        weight           = 0
-        title            = "thenet.lol"
-        [languages.en.params]
-            description  = "A podcost focused on networking and open source"   # Max 160 characters show in search results
-            footerText   = "Brought to you by Tom, Kyle, Brent and Dave"                      # Text to override default footer text (markdown allowed)
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  #[[menu.main]]
+  #  identifier = "posts"
+  #  name       = "Posts"
+  #  url        = "posts/"
