@@ -58,7 +58,8 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Coming soon ..."
+  homeSubtitle = """A podcast on networking and open source software.
+  Coming soon ..."""
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
