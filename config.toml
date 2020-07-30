@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
     # logoCursorAnimate  = "2s"
 
   [params.portrait]
-    path = "/img/TheNetPodcastLogo1200x1200.png"
+    path = "/img/TheNetPodcastLogoRound1200x1200.png"
     alt = "thenet.lol"
 
   # Social icons
