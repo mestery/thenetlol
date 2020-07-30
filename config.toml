@@ -86,7 +86,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "thenet.lol > cd /home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -95,18 +95,18 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-  #[params.portrait]
-  #  path = "/img/image.jpg"
-  #  alt = "Portrait"
+  [params.portrait]
+    path = "/img/TheNetPodcastLogo1200x1200.png"
+    alt = "thenet.lol"
 
   # Social icons
   [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/thenetlol"
 
-  #[[params.social]]
-  #  name = "email"
-  #  url  = "mailto:nobody@example.com"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:thenetlolpodcast@gmail.com"
 
 [languages]
   [languages.en]
