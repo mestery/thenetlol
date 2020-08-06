@@ -10,7 +10,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
+googleAnalytics = "UA-31133071-2"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -58,8 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = """A podcast on networking and open source software.
-  Coming soon ..."""
+  homeSubtitle = """A podcast on networking and open source software"""
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
