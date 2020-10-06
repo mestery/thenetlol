@@ -1,0 +1,9 @@
+ul.podcast {
+    list-style-type: none;
+    text-align: center;
+}
+
+li.podcast {
+    display: inline-block;
+    margin: 12px;
+}

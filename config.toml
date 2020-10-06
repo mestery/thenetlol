@@ -34,7 +34,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/episodes/:title/"
 
 [author]
   name = "Tom, Kyle, Brent, Dave"
@@ -68,7 +68,7 @@ disableHugoGeneratorInject = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
+  customCSS = [ "/css/podcast.css" ]
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
@@ -109,7 +109,6 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -118,11 +117,8 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
+
   [[menu.main]]
-    identifier = "watch"
-    name       = "Watch"
-    url        = "watch/"
-  [[menu.main]]
-    identifier = "listen"
-    name       = "Listen"
-    url        = "listen/"
+    identifier = "episodes"
+    name       = "Episodes"
+    url        = "episodes/"
