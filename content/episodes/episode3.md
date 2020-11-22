@@ -9,6 +9,7 @@ Dave Ward joins the Net crew to talk about some of the past, present and future 
 
 Watch the episode on YouTube:
 
+{{< youtube 7Xto_ew9HHo >}}
 
 Or listen here:
 
