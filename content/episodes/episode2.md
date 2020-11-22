@@ -9,7 +9,7 @@ Join Tom Nadeau, Kyle Mestery, Brent Salisbury and Dave Tucker on the inaugural 
 
 Watch the episode on YouTube:
 
-{{< youtube "ZRf_1i9M-Qk&t" >}}
+{{< youtube ZRf_1i9M-Qk >}}
 
 Or listen here:
 
