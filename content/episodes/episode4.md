@@ -11,3 +11,8 @@ Watch the episode on YouTube:
 
 {{< youtube li1Q3nM1zc4 >}}
 
+Or listen here:
+
+{{< libsyn-player 16740416 >}}
+
+{{< podcasts >}}
