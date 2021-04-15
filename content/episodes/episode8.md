@@ -1,6 +1,6 @@
 +++
 title = "Episode 8 - Truman and Jeremy and how MLB does network automation"
-date = "2021-03-29"
+date = "2021-04-14"
 [ author ]
   name = "thenet.lol"
 +++
