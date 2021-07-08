@@ -1,6 +1,6 @@
 +++
 title = "Episode 12 - Thomas Graf on how eBPF is eating the world"
-date = "2021-07-07"
+date = "2021-07-08"
 [ author ]
   name = "thenet.lol"
 +++
