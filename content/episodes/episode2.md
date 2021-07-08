@@ -1,6 +1,7 @@
 +++
 title = "Episode 2: The blood, sweat and tears of SDN, NFV and Virtualization"
 date = "2020-07-30"
+tags = [ "episode" ]
 [ author ]
   name = "thenet.lol"
 +++
