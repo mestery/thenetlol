@@ -1,5 +1,5 @@
 +++
-title = "Episide 19 - Hannes Gredler talks virtual routing"
+title = "Episode 19 - Hannes Gredler talks virtual routing"
 date = "2021-11-12"
 [ author ]
   name = "thenet.lol"
