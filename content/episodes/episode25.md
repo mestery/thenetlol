@@ -5,7 +5,7 @@ date = "2022-01-26"
   name = "thenet.lol"
 +++
 
-Vinny joins The Net crew to discuss the recent log4j hack. We also talk more broadly about Open Source security. You can find Vinny on LinkedIn, where has written a great article that talks more deeply Log4j: https://www.linkedin.com/pulse/why-log4j-exploit-so-serious-vinny-parla/
+Vinny joins The Net crew to discuss the recent log4j hack. We also talk more broadly about Open Source security. You can find Vinny on LinkedIn, where has [written a great article that talks more deeply about Log4j](https://www.linkedin.com/pulse/why-log4j-exploit-so-serious-vinny-parla/).
 
 Watch the episode on YouTube:
 
