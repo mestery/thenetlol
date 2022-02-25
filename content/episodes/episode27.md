@@ -1,6 +1,6 @@
 +++
 title = "Episode 27 - Roopa Prabhu joins the crew to talk Linux kernel networking and switchdev."
-date = "2022-02-04"
+date = "2022-02-15"
 [ author ]
   name = "thenet.lol"
 +++
