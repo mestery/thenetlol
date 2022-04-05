@@ -11,8 +11,8 @@ applies to enterprises. We also talk about the current CVE explosion, and how
 insider threats are just as important to understand for risk mitigation. You
 can find Al and Vinny on LinkedIn:
 
-* [Al Lynn Linked](https://www.linkedin.com/in/alan-lynn-425258163/)
-* [Vinny Parla Linked](https://www.linkedin.com/in/vparla/)
+* [Al Lynn LinkedIn](https://www.linkedin.com/in/alan-lynn-425258163/)
+* [Vinny Parla LinkedIn](https://www.linkedin.com/in/vparla/)
 
 Watch the episode on YouTube:
 
