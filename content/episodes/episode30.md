@@ -1,5 +1,5 @@
 +++
-title = "Episode 30 - Al Lynn and Vinny Parla on getting to the "Left of Boom."
+title = "Episode 30 - Al Lynn and Vinny Parla on getting to the \"Left of Boom.\""
 date = "2022-03-01"
 [ author ]
   name = "thenet.lol"
