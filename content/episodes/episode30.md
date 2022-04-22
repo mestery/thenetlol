@@ -1,6 +1,6 @@
 +++
 title = "Episode 30 - Al Lynn and Vinny Parla on getting to the \"Left of Boom.\""
-date = "2022-03-01"
+date = "2022-04-07"
 [ author ]
   name = "thenet.lol"
 +++
