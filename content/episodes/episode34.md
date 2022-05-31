@@ -11,7 +11,9 @@ Chris has been using and rating home automation solutions over the years and
 shares his experiences in this space.
 
 You can find Chris on twitter: https://twitter.com/netmanchris
+
 You can also find Chris on youtube: https://www.youtube.com/c/ChrisYoungSmartHome/featured
+
 Learn more about Thread here: https://www.threadgroup.org/
 
 Watch the episode on YouTube:
