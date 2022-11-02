@@ -1,7 +1,6 @@
 baseURL = "https://thenet.lol"
 title   = "thenet.lol"
 languageCode = "en-us"
-theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -122,3 +121,7 @@ disableHugoGeneratorInject = false
     identifier = "episodes"
     name       = "Episodes"
     url        = "episodes/"
+
+[module]
+[[module.imports]]
+    path = 'github.com/rhazdon/hugo-theme-hello-friend-ng'
