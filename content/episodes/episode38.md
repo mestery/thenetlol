@@ -9,6 +9,10 @@ The Net crew is excited to talk to Corey Bryndal about rural broadband and fibre
 build outs. In part 1, we learn about Corey's passion for delivering rural
 broadband to enhance the communities he helps.
 
+Corey's slides can be seen below.
+
+{{< embed-pdf url="/files/region10.pdf" >}}
+
 Watch the episode on YouTube:
 
 {{< youtube UTLWUagQLE4 >}}
