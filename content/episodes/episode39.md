@@ -1,6 +1,6 @@
 +++
 title = "Episode 39 - Corey Bryndal talks rural broadband, part 2"
-date = "2022-11-09"
+date = "2022-11-14"
 [ author ]
   name = "thenet.lol"
 +++
